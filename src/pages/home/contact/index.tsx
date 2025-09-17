@@ -97,7 +97,7 @@ export const Contact = () => {
       };
 
       const response = await emailjs.send(
-        "service_c7h51ab",
+        "service_bn1l5ac",
         "template_oyyaw83",
         templateParams,
         "SIMSqB4eHRWnaQaui"
