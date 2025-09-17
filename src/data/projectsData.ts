@@ -12,6 +12,7 @@ import weatherForecast from "src/assets/image/projects/weather-forecast.png";
 import codeLibrary from "src/assets/image/projects/code-library.png";
 import herbalife from "src/assets/image/projects/herbalife.png";
 import effycity from "src/assets/image/projects/effycity.png";
+import carcas from "src/assets/image/projects/carcas.png";
 
 import blackJackWebMobile from "src/assets/image/projects/blackjack-mobile.png";
 import cineDriveinSiteMobile from "src/assets/image/projects/cinedrivein-site-mobile.png";
@@ -22,6 +23,7 @@ import portfolioMobile from "src/assets/image/projects/portfolio-mobile.png";
 import weatherMobile from "src/assets/image/projects/weather-mobile.png";
 import herbalifeMobile from "src/assets/image/projects/herbalife-mobile.png";
 import effycityMobile from "src/assets/image/projects/effycity-mobile.png";
+import carcasMobile from "src/assets/image/projects/carcas-mobile.png";
 
 import noMobile from "src/assets/image/projects/nomobile.png";
 
@@ -38,6 +40,17 @@ export const projectsDataJSON: ProjectDataProps[] = [
       "https://www.figma.com/design/1fCsklI9Qg4WMEyEn4c2pO/Portf%C3%B3lio-3.0?node-id=0-1&t=LihCXgBqF5bw7fBc-1",
     isRelevant: true,
     mobileImage: portfolioMobile,
+  },
+  {
+    image: carcas,
+    name: "Carcassonne - Aplicação Web",
+    description:
+      "Sistema desenvolvido para o Carcassonne Pub, com cardápio digital, acervo de jogos de tabuleiro e área administrativa completa.",
+    stack: "Next.js, Tailwind, TypeScript e Firebase",
+    repoLink: "https://github.com/leoFagundes/Carcassonne-Admin",
+    demoLink: "https://www.carcassonnepub.com.br/clientMenu",
+    isRelevant: true,
+    mobileImage: carcasMobile,
   },
   {
     image: herbalife,
@@ -130,7 +143,7 @@ export const projectsDataJSON: ProjectDataProps[] = [
     demoLink: "https://black-jack-web.vercel.app/",
     figmaLink:
       "https://www.figma.com/design/Xsx9zO0C2LkGOOwYO2pjHj/BlackJack?node-id=68-42&t=mp6VrhPwUicgDd5c-1",
-    isRelevant: true,
+    isRelevant: false,
     mobileImage: blackJackWebMobile,
   },
 

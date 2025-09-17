@@ -17,7 +17,7 @@ export const Projects = () => {
   const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
   const [activeMode, setActiveMode] = useState<
     "AllProjects" | "ImportantProjects"
-  >("AllProjects");
+  >("ImportantProjects");
   const [activeDevice, setActiveDevice] = useState<
     "DesktopDevice" | "MobileDevice"
   >("DesktopDevice");

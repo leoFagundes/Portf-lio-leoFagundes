@@ -15,6 +15,7 @@ import styledComponentsLogo from "src/assets/svg/skills/styled-components-logo.s
 import tailwindLogo from "src/assets/svg/skills/tailwind-logo.svg";
 import typescriptLogo from "src/assets/svg/skills/typescript-logo.svg";
 import htmlCssLogo from "src/assets/svg/skills/html&css-logo.svg";
+import firebaseLogo from "src/assets/svg/skills/firebase-logo.svg";
 import { SkillDataProps } from "src/types/type";
 
 export const skillsData: SkillDataProps[] = [
@@ -107,5 +108,11 @@ export const skillsData: SkillDataProps[] = [
     img: sqlLogo,
     description:
       "Linguagem de consulta estruturada utilizada para gerenciar e manipular dados em bancos de dados relacionais, permitindo operações como consultas, inserções e atualizações.",
+  },
+  {
+    name: "Firebase",
+    img: firebaseLogo,
+    description:
+      "Plataforma do Google para desenvolvimento de aplicativos web e mobile, oferecendo banco de dados em tempo real, autenticação, hospedagem e diversas ferramentas integradas.",
   },
 ];
